@@ -87,6 +87,10 @@ button.active{
     margin-top: 50px;
 }
 
+.content-container>div{
+    border-radius: 10px;
+}
+
 .content-1{
     margin-bottom: 20px;
     display: flex;
@@ -163,7 +167,6 @@ footer.container{
 
 .footer-1>div{
     margin-bottom: 30px;
-    /* max-width: 600px; */
 }
 
 .footer-1 img{
@@ -214,7 +217,7 @@ p.copy-right{
 @media (max-width:700px){
      
     header{
-        height: 1000px;
+        height: 700px;
     }
     .container{
         padding: 30px 30px;
@@ -228,11 +231,11 @@ p.copy-right{
         width: 120px;
     }
     .free-btn{
-        font-size: 15px;
-        padding: 10px 20px;
+        font-size: 10px;
+        padding: 5px 30px;
     }
     .header-content{
-        margin-top: 100px;
+        margin-top: 70px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -244,62 +247,100 @@ p.copy-right{
         align-items: center;
         text-align: center;
     }
+    .content-1-img img{
+        width:200px;
+    }
     .slogan{
-        font-size: 35px;
+        font-size: 25px;
     }
     .slogan-para{
+        font-size: 15px;
         padding-right: 0;
     }
     .header-img img{
-        width:500px;
-        height:400px;
+        width:340px;
+        height:220px;
+        padding: 0 10px ;
     }
     .active{
         margin-bottom: 50px;
     }
+    button.pink-btn{
+        font-size: 13px;
+    }
     .content-container > div{
+        border-radius: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    .content-1{
+        padding: 25px;
+    }
     .content-1-child{
-        margin: 0 0 50px 0;
+        margin: 0 0 30px 0;
     }
     .content-1-child h1{
+        font-size: 20px;
         margin-bottom: 20px;
+    }
+    .content-1-child p{
+        font-size: 13px;
     }
     .special-img{
         margin:0 0 50px 0;
     }
     .special-content{
+        top:50px;
         width:350px;
-        margin: 0 20px;
+        margin: 0 12px;
     }
     .special-content h1{
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
     }
     .special-content button.active{
-        padding: 10px 20px;
-        width: 300px;
+        padding: 10px 25px ;
+        width: 200px;
         margin:0 0 0 40px;
+        font-size: 12px;
+    }
+    .last-logo{
+        width: 170px;
     }
     .footer-items{
         display: flex;
         flex-direction: column;
+    }
+    .footer-1>div{
+        margin-bottom: 10px;
+    }   
+    .footer-1>div:last-of-type{
+        margin-bottom: 30px;
+    } 
+    .footer-child-1 p{
+        padding-right: 0;
     }
     .footer-4{
         display: flex;
         justify-content: center;
         align-items: center;
         color: #FFF;
+        margin-top: 40px;
         margin-bottom: 30px;
+    }
+    .copy-right{
+        font-size: 10px;
     }
 }
 
-
+@media (min-width: 376px) and (max-width: 394px) {
+    .special-content{
+        margin-left: 22px;
+    }
+}
 
 
 
